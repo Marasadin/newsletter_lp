@@ -1,0 +1,153 @@
+<?php
+/* Template Name: Krupa */
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>Joanna Krupa Newsletter</title>
+</head>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+		
+    }
+    .background {
+        background-image: url('http://www.glsoft.pl/wp-content/uploads/2025/10/15-scaled.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+		min-height: 980px;
+    }
+    .footer {
+        justify-self: center;
+        display: flex;
+        margin: auto;
+        width: 75%;
+        position: fixed;
+        bottom: 0;
+        justify-content: space-around;
+        align-items: center;
+        min-width: 340px;
+        gap: 5px;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .fa-instagram {
+        color: white;
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+    .email {
+        position: center;
+        color: RGB(255,255,255);
+        font-family: "Open Sans", sans-serif;
+		text-align: center;
+  }
+    .table {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        padding-top: 80px;
+    }
+    #p1 {
+        font-size: 18px;
+        color: RGB(255,255,255);
+        font-family: "Times New Roman", Times, serif;
+        text-align: left;
+        margin: 15px;
+    }
+    #p2 {
+        font-size: 99px;
+        color: RGB(0,0,136);
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -6px;
+        text-align: center;
+        margin: 15px;
+		line-height: 85px;
+	}
+	@media only screen and (max-width: 793px) {
+    .footer {
+    position: relative;
+  }
+		html {
+  overflow: hidden;
+  width: 100%;
+}
+body {
+  height: 100%;
+  position: fixed;
+  /* prevent overscroll bounce*/
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  /* iOS velocity scrolling */
+}
+}
+
+</style>
+<body>
+    <div class="background">
+        <div class="table">
+            <div class="t1"><p id="p1">Jesteś ciekawa co zrobi teraz</p><p id="p2"> JOANNA <br>KRUPA</p></div>
+            <div class="t2">
+				<!-- <iframe width="100%" height="100%" scrolling="no" frameborder="0" src="https://www.glsoft.pl/?mailpoet_form_iframe=1" class="mailpoet_form_iframe" id="mailpoet_form_iframe" vspace="0" tabindex="0" onload="var _this = this; window.addEventListener('message', function(e) {if(e.data.MailPoetIframeHeight){_this.style.height = e.data.MailPoetIframeHeight;}})" marginwidth="0" marginheight="0" hspace="0" allowtransparency="true"></iframe> -->
+				<div class="tnp tnp-subscription ">
+<form method="post" action="https://www.glsoft.pl/wp-admin/admin-ajax.php?action=tnp&na=s">
+<input type="hidden" name="nlang" value="">
+<div class="tnp-field tnp-field-firstname"><label for="tnp-4">First name</label>
+<input class="tnp-name" type="text" name="nn" id="tnp-4" value="" placeholder=""></div>
+<div class="tnp-field tnp-field-email"><label for="tnp-5">Email</label>
+<input class="tnp-email" type="email" name="ne" id="tnp-5" value="" placeholder="" required></div>
+<div class="tnp-field tnp-privacy-field"><label><input type="checkbox" name="ny" required class="tnp-privacy"> I accept the privacy policy</label></div><div class="tnp-field tnp-field-button" style="text-align: left"><input class="tnp-submit" type="submit" value="Subscribe" style="">
+</div>
+</form>
+</div>
+			</div>
+        </div>
+        <div class="footer">
+            <div class="f1">
+                <a href="https://www.facebook.com/joannakrupafanpage" target="_blank" class="fa fa-facebook"></a>
+            </div>
+             <div class="f2">
+                <p class="email">Możesz też wysłać e-mail na adres<!-- fhetydagzzzgjds --> info@<!-- sdfjsdhfkjypcs -->joann<!-- asjoxp -->akrupa.eu</p>
+            </div>
+            <div class="f3">
+                <a href="http://www.instagram.com/joannakrupa/" target="_blank" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

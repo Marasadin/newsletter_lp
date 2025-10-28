@@ -1,0 +1,238 @@
+<?php
+/* Template Name: Krupa */
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <title>Joanna Krupa Newsletter</title>
+</head>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+		min-height: 980px;
+    }
+
+    .background {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+        background-image: url('./images/15.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+		min-height: 100%;
+    }
+    .footer {
+        justify-self: center;
+        display: flex;
+        margin: auto;
+        width: 50%;
+        position: fixed;
+        bottom: 0;
+        justify-content: space-around;
+        align-items: center;
+		align-self: center;
+        min-width: 340px;
+        gap: 5px;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+    /* 
+    .fa-facebook {
+        background: #ffff;
+        color: rgba(0, 0, 0, 0);
+    }
+    .fa-instagram {
+        color: white;
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    }
+    */
+    .insimg {
+        height: 15px;
+        width: 15px;
+    }
+    .email {
+        position: center;
+        color: #ffff;
+        font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+		font-size: 12px;
+    }
+    .table {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+		flex: 1 0 auto;
+		width: 100%;
+		margin-top: 100px;
+    }
+    #p1 {
+        font-size: 24px;
+        color: #ffff;
+        font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+        text-align: left;
+        margin: 15px 15px 15px 0px;
+    }
+    #p2 {
+        font-size: 99px;
+        color: RGB(0,0,136);
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -4.5px;
+        text-align: center;
+        margin: 15px;
+        line-height: 85px;
+    }
+    ::placeholder {
+        color: rgb(255,255,255);
+        text-align: center;
+		font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+    }
+    .t2 {
+        align-content: center;
+    }
+    .emailandsub {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .newslettercontainer {
+        text-align: center;
+        width: 355px;
+        max-width: 500px;
+    }
+    .tnp.tnp-subscription {
+        width: 366px;
+        max-width: 500px;
+    }
+    .tnp-field.tnp-privacy-field {
+        margin-top: 10px;
+		color: #ffff;
+		font-size: 16px;
+    }
+    .tnp-email {
+        background-color: rgb(255,255,255,0);
+        height: 50px;
+        width: 75%;
+		padding: 0 2px;
+        border-color: rgb(0,0,136);
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 100em 0 0 100em;
+    }
+    .tnp-submit {
+        height: 60px;
+        width: 150px;
+        color: rgb(255,255,255);
+        background-color: rgb(0,0,136);
+        border-color: rgb(0,0,136);
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 0 100em 100em 0;
+		font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+    }
+    #pnewsletter {
+		color: #ffff;
+		font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+        font-size: 24px;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 793px) {
+    .footer {
+    position: relative;
+    }
+	.table {
+		overflow:auto;
+		margin-top: 0;
+			
+	}
+		.t1 {
+			/* padding-bottom: 150px; */
+	}
+		.footer {
+			height: 60px;
+			
+	}
+}
+</style>
+<body>
+    <div class="background">
+        <div class="table">
+            <div class="t1"><p id="p1">Jesteś ciekawa co zrobi teraz</p><!--<p id="p2"> JOANNA<br> KRUPA</p>-->
+            <div class="logo"><img src="./images/KRUPA_LOGO_niebieski.png" alt="JOANNA KRUPA" width="360px"></div>
+            </div>
+            <div class="t2">
+                <div class="newslettercontainer">
+                    <div class="tnp tnp-subscription">
+                        <form method="post" action="https://www.glsoft.pl/wp-admin/admin-ajax.php?action=tnp&na=s">
+                        <input type="hidden" name="nlang" value="">
+                        <p id="pnewsletter">Zostaw swój adres e-mail i dołącz do eksluzywnego grona, które dowie się w pierwszej kolejności!</p>
+                        <div class="emailandsub">
+                            <input class="tnp-email" type="email" name="ne" id="tnp-2" value="" placeholder="wpisz adres e-mail tutaj" required>
+                            <div class="tnp-field tnp-field-button" style="text-align: center"><input class="tnp-submit" type="submit" value="dołącz" style=""></div>
+                        </div>
+                        <div class="tnp-field tnp-privacy-field"><label><input type="checkbox" name="ny" required class="tnp-privacy"> Zapoznaj się z naszą <a href="#">Polityką prywatności</a>, aby uzyskać więcej informacji.</label></div>
+                        </form>
+                    </div>          
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="f1">
+                <!-- <a href="https://www.facebook.com/joannakrupafanpage" target="_blank" class="fa fa-facebook"></a> -->
+                <a href="https://www.facebook.com/joannakrupafanpage" target="_blank"><img class="fa fbimg" src="./images/logo fb.png"></a>
+            </div>
+            <div class="f2">
+                <p class="email"><!-- fhetydagzzzgjds --> info@<!-- sdfjsdhfkjypcs -->joann<!-- asjoxp -->akrupa.eu</p> 
+            </div>
+            <div class="f3">
+                <!-- <a href="http://www.instagram.com/joannakrupa/" target="_blank" class="fa fa-instagram"></a> -->
+                <a href="http://www.instagram.com/joannakrupa/" target="_blank"><img class="insimg" src="./images/insta logo.png"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
