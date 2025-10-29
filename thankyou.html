@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Krupa */
+/* Template Name: Krupa_Thanks */
 ?>
 
 <!DOCTYPE html>
@@ -129,48 +129,6 @@
     .t2 {
         align-content: center;
     }
-    .emailandsub {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .newslettercontainer {
-        text-align: center;
-        width: 355px;
-        max-width: 500px;
-    }
-    .tnp.tnp-subscription {
-        width: 366px;
-        max-width: 500px;
-    }
-    .tnp-field.tnp-privacy-field {
-        margin-top: 10px;
-		color: #ffff;
-		font-size: 16px;
-    }
-    .tnp-email {
-        background-color: rgb(255,255,255,0);
-        height: 50px;
-        width: 75%;
-		padding: 0 2px;
-        border-color: rgb(0,0,136);
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 100em 0 0 100em;
-    }
-    .tnp-submit {
-        height: 60px;
-        width: 150px;
-        color: rgb(255,255,255);
-        background-color: rgb(0,0,136);
-        border-color: rgb(0,0,136);
-        border-style: solid;
-        border-width: 5px;
-        border-radius: 0 100em 100em 0;
-		font-family: "Playfair Display", serif;
-  		font-weight: 600;
-  		font-style: normal;
-    }
     #pnewsletter {
 		color: #ffff;
 		font-family: "Playfair Display", serif;
@@ -179,6 +137,15 @@
         font-size: 24px;
         text-align: justify;
         margin-bottom: 50px;
+    }
+    #thanks {
+        font-size: 24px;
+        color: #ffff;
+        font-family: "Playfair Display", serif;
+  		font-weight: 600;
+  		font-style: normal;
+        text-align: left;
+        margin: 15px 15px 15px 0px;
     }
     @media only screen and (max-width: 793px) {
     .footer {
@@ -206,17 +173,7 @@
             </div>
             <div class="t2">
                 <div class="newslettercontainer">
-                    <div class="tnp tnp-subscription">
-                        <form method="post" action="#">
-                        <input type="hidden" name="nlang" value="">
-                        <p id="pnewsletter">Zostaw swój adres e-mail i dołącz do eksluzywnego grona, które dowie się w pierwszej kolejności!</p>
-                        <div class="emailandsub">
-                            <input class="tnp-email" type="email" name="ne" id="tnp-2" value="" placeholder="wpisz adres e-mail tutaj" required>
-                            <div class="tnp-field tnp-field-button" style="text-align: center"><input class="tnp-submit" type="submit" value="dołącz" style=""></div>
-                        </div>
-                        <div class="tnp-field tnp-privacy-field"><label><input type="checkbox" name="ny" required class="tnp-privacy"> Zapoznaj się z naszą <a href="#">Polityką prywatności</a>, aby uzyskać więcej informacji.</label></div>
-                        </form>
-                    </div>          
+                    <p id="thanks">Dziękuję za Twoją subskrupcję</p>         
                 </div>
             </div>
         </div>
